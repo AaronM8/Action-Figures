@@ -1,0 +1,13 @@
+/*Header section*/
+header {
+    margin-bottom: 48px;
+}
+
+iframe {
+    width: 65%;
+    min-height: 450px;
+}
+
+#contact-form{
+    text-align: center;
+}

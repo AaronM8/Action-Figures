@@ -1,0 +1,174 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Satisfy');
+
+
+
+/*======UNIVERSAL=======*/
+.header-words{
+    float: left;
+}
+
+.nav-bar{
+    float: right;
+}
+
+.inline {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.active {
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.active a {
+   color: #000;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
+}
+
+/*=====Hero section======*/
+
+header{
+    height: 150px;
+    background-color: #000;
+    padding: 0px 16px;
+}
+
+header a {
+    color: #ffff00;
+}
+
+h1, h2 {
+    color:#fff;
+}
+
+header nav ul li {
+    margin-right: 15px;
+}
+
+/*=========MAIN SECTION=====*/
+#hero{
+    background-image: url('../img/hero.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    height: 350px; 
+}
+
+.title-style{
+    margin: 0;
+    text-align: center;
+    margin-top: 16%;
+    margin-left: 30%;
+    position: absolute;
+}
+
+/*ASIDE section*/
+.white-text {
+    color: #fff;
+}
+
+.centered {
+    text-align: center; 
+}
+
+aside {
+    float: left;
+    width: 30%;
+    background-color: #000;
+    height: 350px;
+    border: 2px solid #00f400;
+}
+
+.blog-link {
+    padding: 10px 0px;
+    margin: 10px;
+}
+
+.blog-link:hover a, .blog-link:hover {
+    background-color: #eeee77;
+    color: #000;
+}
+
+aside a {
+    color: #fff;
+}
+/*=====HEADER SECTION======*/
+#main-heading{
+    font-weight: 800;
+    color: #000;
+}
+main {
+    float: right;
+    width: 69.5%;
+    height: 350px;
+    overflow: auto;
+}
+
+footer {
+    height: 55px;
+    background-color: #6678ff;
+    clear: both;
+    padding: 8px 0px;
+}
+
+.fa {
+    margin-left: 8px;
+}
+
+footer #social-media a {
+    color: #000;
+}
+
+footer #social-media a:hover {
+    color: #fff;
+}
+
+#copyright {
+    text-align: right;
+    font-size: 10px;
+}
+
+
+/*contact form*/
+#contact-form {
+    text-align: center;
+    width: 50%;
+}
+
+#contact-form iframe {
+  min-height: 650px; 
+}
+
+
+/*Google map*/
+#google-map-container, #contact-form {
+    width: 50%;
+    float: left;
+}
+
+#google-map-container, iframe {
+    width: 450;
+    height: 450;
+}
+
+
+
+
+
